@@ -31,6 +31,7 @@ const POPULAR_PASSAGES = [
   { id: 'mulk-3', title: 'The Sovereignty (Part 3)', subtitle: 'Al-Mulk 67:23-30', surah: 67, start: 23, end: 30 },
   { id: 'duhaa', title: 'Light & Consolation', subtitle: 'Ad-Duhaa 93:1-11', surah: 93, start: 1, end: 11 },
   { id: 'sharh', title: 'Relief from Burden', subtitle: 'Ash-Sharh 94:1-8', surah: 94, start: 1, end: 8 },
+  { id: 'tin', title: 'The Fig', subtitle: 'At-Tin 95:1-8', surah: 95, start: 1, end: 8 },
   { id: 'qadr', title: 'Night of Decree', subtitle: 'Al-Qadr 97:1-5', surah: 97, start: 1, end: 5 },
   { id: 'asr', title: 'The Declining Day', subtitle: 'Al-\'Asr 103:1-3', surah: 103, start: 1, end: 3 },
   { id: 'kauthar', title: 'The Abundance', subtitle: 'Al-Kawthar 108:1-3', surah: 108, start: 1, end: 3 },
