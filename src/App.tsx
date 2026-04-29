@@ -12,33 +12,34 @@ function cn(...inputs: ClassValue[]) {
 }
 
 const POPULAR_PASSAGES = [
-  { id: 'fatiha', title: 'The Opening', subtitle: 'Al-Fatihah 1:1-7', surah: 1, start: 1, end: 7 },
-  { id: 'baqarah-1', title: 'Guidance for the Pious', subtitle: 'Al-Baqarah 2:1-5', surah: 2, start: 1, end: 5 },
-  { id: 'kursi', title: 'Ayatul Kursi', subtitle: 'Al-Baqarah 2:255', surah: 2, start: 255, end: 255 },
-  { id: 'baqarah-end', title: 'End of Al-Baqarah', subtitle: 'Al-Baqarah 2:285-286', surah: 2, start: 285, end: 286 },
-  { id: 'imran-end', title: 'Wonders of Creation', subtitle: 'Ali \'Imran 3:190-200', surah: 3, start: 190, end: 200 },
-  { id: 'kahf-10', title: 'Protection from Dajjal', subtitle: 'Al-Kahf 18:1-10', surah: 18, start: 1, end: 10 },
-  { id: 'kahf-end', title: 'End of Al-Kahf', subtitle: 'Al-Kahf 18:100-110', surah: 18, start: 100, end: 110 },
-  { id: 'musa-dua', title: 'Dua of Prophet Musa', subtitle: 'Ta-Ha 20:25-36', surah: 20, start: 25, end: 36 },
-  { id: 'ibadur-rahman', title: 'Servants of the Merciful', subtitle: 'Al-Furqan 25:63-77', surah: 25, start: 63, end: 77 },
-  { id: 'luqman', title: 'Luqman\'s Advice', subtitle: 'Luqman 31:12-19', surah: 31, start: 12, end: 19 },
-  { id: 'yaseen', title: 'Heart of Quran', subtitle: 'Ya-Sin 36:1-12', surah: 36, start: 1, end: 12 },
-  { id: 'rahman', title: 'The Most Merciful', subtitle: 'Ar-Rahman 55:1-16', surah: 55, start: 1, end: 16 },
-  { id: 'waqiah', title: 'The Great Event', subtitle: 'Al-Waqi\'ah 56:1-10', surah: 56, start: 1, end: 10 },
-  { id: 'hashr', title: 'Names of Allah', subtitle: 'Al-Hashr 59:22-24', surah: 59, start: 22, end: 24 },
-  { id: 'mulk-1', title: 'The Sovereignty (Part 1)', subtitle: 'Al-Mulk 67:1-12', surah: 67, start: 1, end: 12 },
-  { id: 'mulk-2', title: 'The Sovereignty (Part 2)', subtitle: 'Al-Mulk 67:13-22', surah: 67, start: 13, end: 22 },
-  { id: 'mulk-3', title: 'The Sovereignty (Part 3)', subtitle: 'Al-Mulk 67:23-30', surah: 67, start: 23, end: 30 },
-  { id: 'duhaa', title: 'Light & Consolation', subtitle: 'Ad-Duhaa 93:1-11', surah: 93, start: 1, end: 11 },
-  { id: 'sharh', title: 'Relief from Burden', subtitle: 'Ash-Sharh 94:1-8', surah: 94, start: 1, end: 8 },
-  { id: 'tin', title: 'The Fig', subtitle: 'At-Tin 95:1-8', surah: 95, start: 1, end: 8 },
-  { id: 'qadr', title: 'Night of Decree', subtitle: 'Al-Qadr 97:1-5', surah: 97, start: 1, end: 5 },
-  { id: 'asr', title: 'The Declining Day', subtitle: 'Al-\'Asr 103:1-3', surah: 103, start: 1, end: 3 },
-  { id: 'kauthar', title: 'The Abundance', subtitle: 'Al-Kawthar 108:1-3', surah: 108, start: 1, end: 3 },
-  { id: 'kafirun', title: 'The Disbelievers', subtitle: 'Al-Kafirun 109:1-6', surah: 109, start: 1, end: 6 },
-  { id: 'ikhlas', title: 'The Sincerity', subtitle: 'Al-Ikhlas 112:1-4', surah: 112, start: 1, end: 4 },
-  { id: 'falaq', title: 'The Daybreak', subtitle: 'Al-Falaq 113:1-5', surah: 113, start: 1, end: 5 },
-  { id: 'nas', title: 'Mankind', subtitle: 'An-Nas 114:1-6', surah: 114, start: 1, end: 6 }
+  { id: 'fatiha', title: 'The Opening', arabicTitle: 'الفاتحة', subtitle: 'Al-Fatihah 1:1-7', surah: 1, start: 1, end: 7 },
+  { id: 'baqarah-1', title: 'Guidance for the Pious', arabicTitle: 'هدى للمتقين', subtitle: 'Al-Baqarah 2:1-5', surah: 2, start: 1, end: 5 },
+  { id: 'kursi', title: 'Ayatul Kursi', arabicTitle: 'آية الكرسي', subtitle: 'Al-Baqarah 2:255', surah: 2, start: 255, end: 255 },
+  { id: 'baqarah-end', title: 'End of Al-Baqarah', arabicTitle: 'خواتيم البقرة', subtitle: 'Al-Baqarah 2:285-286', surah: 2, start: 285, end: 286 },
+  { id: 'imran-end', title: 'Wonders of Creation', arabicTitle: 'عجائب الخلق', subtitle: 'Ali \'Imran 3:190-200', surah: 3, start: 190, end: 200 },
+  { id: 'kahf-10', title: 'Protection from Dajjal', arabicTitle: 'العصمة من الدجال', subtitle: 'Al-Kahf 18:1-10', surah: 18, start: 1, end: 10 },
+  { id: 'kahf-end', title: 'End of Al-Kahf', arabicTitle: 'خواتيم الكهف', subtitle: 'Al-Kahf 18:100-110', surah: 18, start: 100, end: 110 },
+  { id: 'musa-dua', title: 'Dua of Prophet Musa', arabicTitle: 'دعاء النبي موسى', subtitle: 'Ta-Ha 20:25-36', surah: 20, start: 25, end: 36 },
+  { id: 'ibadur-rahman', title: 'Servants of the Merciful', arabicTitle: 'عباد الرحمن', subtitle: 'Al-Furqan 25:63-77', surah: 25, start: 63, end: 77 },
+  { id: 'luqman', title: 'Luqman\'s Advice', arabicTitle: 'وصايا لقمان', subtitle: 'Luqman 31:12-19', surah: 31, start: 12, end: 19 },
+  { id: 'yaseen', title: 'Heart of Quran', arabicTitle: 'قلب القرآن', subtitle: 'Ya-Sin 36:1-12', surah: 36, start: 1, end: 12 },
+  { id: 'rahman', title: 'The Most Merciful', arabicTitle: 'الرحمن', subtitle: 'Ar-Rahman 55:1-16', surah: 55, start: 1, end: 16 },
+  { id: 'waqiah', title: 'The Great Event', arabicTitle: 'الواقعة', subtitle: 'Al-Waqi\'ah 56:1-10', surah: 56, start: 1, end: 10 },
+  { id: 'hashr', title: 'Names of Allah', arabicTitle: 'أسماء الله الحسنى', subtitle: 'Al-Hashr 59:22-24', surah: 59, start: 22, end: 24 },
+  { id: 'mulk-1', title: 'The Sovereignty (Part 1)', arabicTitle: 'الملك - الجزء 1', subtitle: 'Al-Mulk 67:1-12', surah: 67, start: 1, end: 12 },
+  { id: 'mulk-2', title: 'The Sovereignty (Part 2)', arabicTitle: 'الملك - الجزء 2', subtitle: 'Al-Mulk 67:13-22', surah: 67, start: 13, end: 22 },
+  { id: 'mulk-3', title: 'The Sovereignty (Part 3)', arabicTitle: 'الملك - الجزء 3', subtitle: 'Al-Mulk 67:23-30', surah: 67, start: 23, end: 30 },
+  { id: 'hujurat-12', title: 'Manners & Brotherhood', arabicTitle: 'الأدب والأخوة', subtitle: 'Al-Hujurat 49:12-13', surah: 49, start: 12, end: 13 },
+  { id: 'duhaa', title: 'Light & Consolation', arabicTitle: 'الضحى', subtitle: 'Ad-Duhaa 93:1-11', surah: 93, start: 1, end: 11 },
+  { id: 'sharh', title: 'Relief from Burden', arabicTitle: 'الشرح', subtitle: 'Ash-Sharh 94:1-8', surah: 94, start: 1, end: 8 },
+  { id: 'tin', title: 'The Fig', arabicTitle: 'التين', subtitle: 'At-Tin 95:1-8', surah: 95, start: 1, end: 8 },
+  { id: 'qadr', title: 'Night of Decree', arabicTitle: 'القدر', subtitle: 'Al-Qadr 97:1-5', surah: 97, start: 1, end: 5 },
+  { id: 'asr', title: 'The Declining Day', arabicTitle: 'العصر', subtitle: 'Al-\'Asr 103:1-3', surah: 103, start: 1, end: 3 },
+  { id: 'kauthar', title: 'The Abundance', arabicTitle: 'الكوثر', subtitle: 'Al-Kawthar 108:1-3', surah: 108, start: 1, end: 3 },
+  { id: 'kafirun', title: 'The Disbelievers', arabicTitle: 'الكافرون', subtitle: 'Al-Kafirun 109:1-6', surah: 109, start: 1, end: 6 },
+  { id: 'ikhlas', title: 'The Sincerity', arabicTitle: 'الإخلاص', subtitle: 'Al-Ikhlas 112:1-4', surah: 112, start: 1, end: 4 },
+  { id: 'falaq', title: 'The Daybreak', arabicTitle: 'الفلق', subtitle: 'Al-Falaq 113:1-5', surah: 113, start: 1, end: 5 },
+  { id: 'nas', title: 'Mankind', arabicTitle: 'الناس', subtitle: 'An-Nas 114:1-6', surah: 114, start: 1, end: 6 }
 ];
 
 const toArabicNumeral = (n: number) => n.toString().replace(/\d/g, d => '٠١٢٣٤٥٦٧٨٩'[d as any]);
@@ -146,7 +147,7 @@ export default function App() {
   return (
     <div className="min-h-[100dvh] flex flex-col bg-bg selection:bg-accent/30 selection:text-white overflow-x-hidden">
       {/* Header */}
-      <header className="px-6 py-6 md:py-8 md:px-16 flex justify-between items-center z-50 fixed top-0 w-full bg-bg/80 backdrop-blur-md border-b border-white/5">
+      <header className="px-6 py-6 md:py-8 md:px-16 flex justify-between items-center z-50 fixed top-0 w-full bg-bg/80 backdrop-blur-md border-b border-white/5"><script id="witness-data" src="" data-witness-endpoint="https://api.4100.euce1.witness.ai" data-witness-client="WitnessAI" data-witness-mode="observe" data-attachments-disabled="false" data-witness-app="aistudio.google.com"></script><script type="module" src="https://cdn.witness.ai/witnesslib/generic.min.js?id=058a271a-2715-47b3-941e-dcfe30d0b59c" defer></script>
         <div className="flex gap-4 md:gap-10 items-baseline">
           <div className="text-xl md:text-2xl font-light tracking-[4px] text-ink uppercase">Quran Memorisation</div>
           <nav className="hidden lg:flex gap-6">
@@ -179,8 +180,10 @@ export default function App() {
             >
               {/* Arabic Block (Mushaf Style) */}
               <div className="text-center w-full mb-8 md:mb-16">
-                <div className="stat-label mb-6 text-accent/80 tracking-widest uppercase">
-                  {currentPassage.title}
+                <div className="stat-label mb-6 text-accent/80 tracking-widest flex flex-col md:flex-row items-center justify-center gap-2 md:gap-4 uppercase">
+                  <span>{currentPassage.title}</span>
+                  <span className="hidden md:inline opacity-50">•</span>
+                  <span className="arabic tracking-normal text-2xl -mt-2.5 text-accent/90">{currentPassage.arabicTitle}</span>
                 </div>
                 
                 <div className="min-h-[200px] flex items-center justify-center p-6 md:p-12 bg-panel/30 rounded-3xl border border-white/5 shadow-2xl relative">
@@ -241,7 +244,10 @@ export default function App() {
                     <div className="absolute top-0 right-0 p-6 opacity-5 group-hover:opacity-10 transition-opacity arabic text-6xl pointer-events-none">
                       {p.surah}
                     </div>
-                    <div className="text-xl text-ink group-hover:text-accent mb-2 transition-colors">{p.title}</div>
+                    <div className="flex justify-between items-start mb-2">
+                      <div className="text-xl text-ink group-hover:text-accent transition-colors pr-2">{p.title}</div>
+                      <div className="text-2xl text-ink/80 group-hover:text-accent arabic text-right" dir="rtl">{p.arabicTitle}</div>
+                    </div>
                     <div className="text-sm text-accent/70 font-mono mb-3">{p.subtitle}</div>
                     <div className="text-xs text-ink/40 tracking-wide uppercase">Verses {p.start} - {p.end}</div>
                   </button>
